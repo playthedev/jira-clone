@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #f1f2f6;
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+.header{
+    width:100vw;
+    height:9vh;
+    background-color:#4b4b4b;
+    display: flex;
+    align-items: center;
+   
+}
+.colorFliter{
+    background-color: #3d3d3d;
+    width:150px;
+    height:40px;
+    margin-left: 35px;
+    border-radius: 2px;
+    display:flex;
+    align-items: center;
+justify-content: space-around;
+}
+.addDel{
+    width:55px;
+    height: 40px;
+    background-color: #3d3d3d;
+    margin:50px;
+    border-radius: 1.5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fa-plus,.fa-xmark{
+  color:#d2dae2;
+  font-size :20px;
+  cursor:pointer;
+}
+.pink{
+    width:25px;
+    height:15px;
+    background-color: rgb(237, 193, 200);
+    border-radius: 1px;
+}
+
+.green{
+    width:25px;
+    height:15px;
+    background-color: green;
+    border-radius: 1px;
+}
+.blue{
+    width:25px;
+    height:15px;
+    background-color: skyblue;
+    border-radius: 1px;
+}
+.black{
+    width:25px;
+    height:15px;
+    background-color: black;
+    border-radius: 1px;
+}
+.ticketGenerate{
+    position: absolute;
+    width:30rem;
+    height:15rem;
+    top:calc((100%/2) - (15rem/ 2));
+    left:calc((100%/2) - (30rem/ 2));
+    display:none;
+    border-radius: 3px;
+}
+.colorSet{
+    width:7rem;
+    height:15rem;
+    background-color: #4b4b4b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+textarea{
+    width:23rem;
+    height:15rem;
+    resize: none;
+    background-color: #dfe4ea;
+    border:none;
+    outline:none;
+    padding:20px;
+    font-size: 20px;
+    font-weight: 20px;
+    letter-spacing: 0re  m;
+    word-spacing: 1px;
+   
+}
+.pink1{
+    width:60px;
+    height:27px;
+    background-color: rgb(237, 193, 200);
+    border-radius: 1px;
+    cursor:pointer;
+}
+
+.green1{
+    width:60px;
+    height:27px;
+    background-color: green;
+    border-radius: 1px;
+    cursor:pointer;
+}
+.blue1{
+    width:60px;
+    height:27px;
+    background-color: skyblue;
+    border-radius: 1px;
+    cursor:pointer;
+}
+.black1{
+    width:60px;
+    height:27px;
+    background-color: black;
+    border-radius: 1px;
+    cursor:pointer;
+    border:3px solid white;
+}
+.container{
+    width:100vw;
+    height:91vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ticketcopy{
+    width:170px;
+    height:150px;
+    background-color: #dfe4ea;
+    margin:20px;
+}
+
+.pink1_pick{
+    background-color: pink;
+    width:170px;
+    height:20px;
+}
+.blue1_pick{
+    background-color: skyblue;
+    width:170px;
+    height:20px;
+}
+.green1_pick{
+    background-color: green;
+    width:170px;
+    height:20px;
+}
+.black1_pick{
+    background-color:black;
+    width:170px;
+    height:20px;
+}
+.unique{
+    width:170px;
+    height:20px;
+    /* background-color: brown; */
+}
+.textterritory{
+    width:170px;
+    height:90px;
+    background-color: burlywood;
+}
+#text{
+    width:170px;
+    height:90px;
+    /* background-color: burlywood; */
+}
+.lock{
+    width:170px;
+    height:20px;
+    /* padding:5px; */
+    position:relative;
+    /* background-color: aqua; */
+}
+.fa-lock{
+    position:absolute;
+    right:0%;
+    margin:3px;
+    margin:3px;
+    color:#747d8c
+}
